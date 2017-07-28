@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHART_BASE_URL	../test.py	/^CHART_BASE_URL = 'https:\/\/chart.apis.google.com\/chart'$/;"	kind:variable	line:7
+ELEVATION_BASE_URL	../test.py	/^ELEVATION_BASE_URL = 'https:\/\/maps.googleapis.com\/maps\/api\/elevation\/json'$/;"	kind:variable	line:6
+bmesh	../goe.py	/^import bmesh$/;"	kind:namespace	line:2
+bpy	../goe.py	/^import bpy$/;"	kind:namespace	line:1
+bpy	../setup.py	/^import bpy$/;"	kind:namespace	line:1
+coordination	../googlemap.py	/^coordination = data.reshape((100, 2))$/;"	kind:variable	line:18
+data	../googlemap.py	/^        data = np.append(data, [[i,j]])$/;"	kind:variable	line:16
+data	../googlemap.py	/^data = np.array([])$/;"	kind:variable	line:12
+datetime	../googlemap.py	/^from datetime import datetime$/;"	kind:namespace	line:2
+endStr	../test.py	/^    endStr = "36.23998,-116.83171"$/;"	kind:variable	line:49
+geocode_result	../googlemap.py	/^geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')$/;"	kind:variable	line:8
+getChart	../test.py	/^def getChart(chartData, chartDataScaling="-500,5000", chartType="lc",chartLabel="Elevation in Meters",chartSize="500x160",chartColor="orange", **chart_args):$/;"	kind:function	line:9
+getElevation	../test.py	/^def getElevation(path="36.578581,-118.291994|36.23998,-116.83171",samples="100", **elvtn_args):$/;"	kind:function	line:27
+gmaps	../googlemap.py	/^gmaps = googlemaps.Client(key='AIzaSyCa9SFhwTt7IRMGYTPe5P1E6K906-VVROM')$/;"	kind:variable	line:5
+goe.py	../goe.py	1;"	kind:file	line:1
+googlemap.py	../googlemap.py	1;"	kind:file	line:1
+googlemaps	../googlemap.py	/^import googlemaps$/;"	kind:namespace	line:1
+hight	../googlemap.py	/^hight = [gmaps.elevation((i, j))[0]["elevation"] for i, j in coordination]$/;"	kind:variable	line:26
+mesh_1	../goe.py	/^mesh_1=bmesh.from_edit_mesh(bpy.context.object.data)$/;"	kind:variable	line:9
+np	../googlemap.py	/^import numpy as np$/;"	kind:namespace	line:3
+parse	../test.py	/^import urllib.parse$/;"	kind:namespace	line:3
+pathStr	../test.py	/^    pathStr = startStr + "|" + endStr$/;"	kind:variable	line:51
+request	../test.py	/^import urllib.request$/;"	kind:namespace	line:4
+setup.py	../setup.py	1;"	kind:file	line:1
+simplejson	../test.py	/^import simplejson$/;"	kind:namespace	line:1
+startStr	../test.py	/^    startStr = "36.578581,-118.291994"$/;"	kind:variable	line:47
+test.py	../test.py	1;"	kind:file	line:1
+urllib	../test.py	/^import urllib$/;"	kind:namespace	line:2
+urllib	../test.py	/^import urllib.parse$/;"	kind:namespace	line:3
+urllib	../test.py	/^import urllib.request$/;"	kind:namespace	line:4
